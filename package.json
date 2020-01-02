@@ -100,4 +100,3 @@
     "webpack-cli": "^3.1.0",
     "webpack-flush-chunks": "^2.0.3"
   }
-}
