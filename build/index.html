@@ -1,5 +1,12 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+
+<!--[if lt IE 7 ]> <html lang="en" class="ie6" > <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="ie7" > <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="ie8" > <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="ie9" > <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en" class="">
+<!--<![endif]-->
 
 <head>
   <meta charset="utf-8">
@@ -78,8 +85,6 @@
 </head>
 
 <body>
-  <h2>testing</h2>
-  <input type="button" value="test" onclick="showmsg()">
   <!-- START Loader -->
   <div class="initial-loader-wrap">
     <div class="initial-loader">
@@ -132,7 +137,7 @@
   <div id="root"></div>
 
 
-  <script src="/static/app.bundle.js"></script>
+  <script src="/static/app.bundle.js" defer></script>
 
 
 
